@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #000000, #434343);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Card */
+.card {
+  background: #ffffff;
+  width: 300px;
+  margin: 120px auto;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Name */
+#profile-name {
+  font-size: 26px;
+  color: #111111;
+  margin-bottom: 10px;
+}
+
+/* Info */
+.card-info {
+  font-size: 14px;
+  color: #555555;
+}
+
+/* Hover effect (cool animation 😎) */
+.card:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
